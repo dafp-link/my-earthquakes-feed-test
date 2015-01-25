@@ -1,0 +1,70 @@
+html, body, #map-canvas { 
+  height: 100%; 
+  margin: 0; 
+  padding: 0;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:0.9em;
+  margin:0px;
+  padding:0px;
+}
+
+#container{
+  position:relative;
+}
+
+#top-bar{
+  background-color:#01799e;
+  overflow:hidden;
+  clear:both;
+  /*position:fixed;
+  top:0px;
+  z-index: 9999;
+  width:100%;*/
+}
+
+#heading{
+  float:left;
+  padding-left: 17px;
+  padding-top: 8px;
+}
+
+#heading h1{
+  font-size:1.5em;
+  color:#fff;
+}
+
+#button-container{
+  float:right;
+  cursor:pointer;	
+}
+
+#map-button{
+  background: url(../imgs/map-icon.png) center right no-repeat;
+  width: 135px;
+  height: 40px;
+  padding: 20px 10px 10px 10px;
+}
+
+#button-text{
+  color:#fff;
+  font-size:1.4em;	
+  font-weight:bold;
+}
+
+#list-container{
+  padding:17px;
+}
+
+#map-canvas{ 
+  visibility:hidden;
+}
+
+.list-class{
+  background: url(../imgs/list-icon.png) center right no-repeat!important;
+  width: 135px;
+  height: 40px;
+  padding: 20px 10px 10px 10px;
+}
