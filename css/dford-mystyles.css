@@ -28,11 +28,11 @@ body{
 #heading{
   float:left;
   padding-left: 17px;
-  padding-top: 8px;
+  padding-top: 11px;
 }
 
 #heading h1{
-  font-size:1.5em;
+  font-size:1.2em;
   color:#fff;
 }
 
@@ -43,14 +43,14 @@ body{
 
 #map-button{
   background: url(../imgs/map-icon.png) center right no-repeat;
-  width: 135px;
+  width: 118px;
   height: 40px;
   padding: 20px 10px 10px 10px;
 }
 
 #button-text{
   color:#fff;
-  font-size:1.4em;	
+  font-size:1.2em;	
   font-weight:bold;
 }
 
