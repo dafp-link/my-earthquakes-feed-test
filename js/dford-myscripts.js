@@ -1,5 +1,6 @@
 var itemsArray=[];
 var info='';
+var mapLoaded=false;
 
 $( document ).ready(function() {
 
@@ -24,7 +25,13 @@ $( document ).ready(function() {
  
  //switch map and list icons	
 
+ 
  $("#map-button").click(function() {
+    if(!mapLoaded)
+	 {initializeMap();
+	  mapLoaded=true;
+	 }
+ 
 	if (!$(this).hasClass("list-class"))
 	{
 	  $(this).addClass("list-class");
@@ -72,7 +79,7 @@ $( document ).ready(function() {
        } //for
    
       }
-
+/*
       function loadScript() {
        var script = document.createElement('script');
        script.type = 'text/javascript';
@@ -80,3 +87,5 @@ $( document ).ready(function() {
        document.body.appendChild(script);
       }
       window.onload = loadScript;
+	  
+*/
