@@ -2,7 +2,7 @@
 
 This project extracts and presents data from the following JSON source: http://www.seismi.org/api/eqs/  
 
-You can easily switch between map view and list view by pressing the button at the top-right corner.
+You can easily switch between LIST view and MAP view by pressing the button at the top-right corner.
 
 I developed this project using GitHub + PhoneGap to keep it clean and simple. 
 
