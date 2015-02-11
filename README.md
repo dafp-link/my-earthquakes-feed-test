@@ -14,6 +14,7 @@ Download the app here: https://build.phonegap.com/apps/1280810
 
 GitHub link to the repository: https://github.com/dagmarford/my-earthquakes-feed-test
 
+
 HOW IT WORKS----------------------------
 
 The external JSON data is retrieved via JavaScript and also jQuery AJAX calls + JSONP to solve the cross-origin issues from the external feed. The JavaScript code calls a Google Script file to retrieve the data which is then stored as JavaScript objects and arrays that help populate the list which is presented with HTML, CSS and JavaScript/jQuery.
