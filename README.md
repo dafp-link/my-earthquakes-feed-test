@@ -17,6 +17,6 @@ GitHub link to this repository: https://github.com/dagmarford/my-earthquakes-fee
 
 HOW IT WORKS ----------------------------
 
-The external JSON data is retrieved via JavaScript and also jQuery AJAX calls + JSONP to solve the cross-origin issues from the external feed. The JavaScript code calls a Google Script file to retrieve the data which is then stored as JavaScript objects and arrays that help populate the list which is presented with HTML, CSS and JavaScript/jQuery.
+The external JSON data is retrieved via JavaScript and also jQuery AJAX calls + JSONP to solve the cross-origin issues encountered when reading the file from the Seismi.org server. The JavaScript code calls a Google Script file to retrieve the data which is then stored as JavaScript objects and arrays that help populate the list which is presented with HTML, CSS and JavaScript/jQuery.
 
 At the same time, an array is filled with the same data from the list and transferred to my customized markers. I've incorporated the Google Maps V3 API to display the information on the map. 
