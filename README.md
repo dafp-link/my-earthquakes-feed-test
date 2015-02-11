@@ -12,7 +12,7 @@ The App was built with PhoneGap for Android phones and Windows phones, but you c
 
 Download the app here: https://build.phonegap.com/apps/1280810
 
-GitHub link to the repository: https://github.com/dagmarford/my-earthquakes-feed-test
+GitHub link to this repository: https://github.com/dagmarford/my-earthquakes-feed-test
 
 
 HOW IT WORKS ----------------------------
